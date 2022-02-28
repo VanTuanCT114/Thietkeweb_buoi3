@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Tài Khoản</title>
+</head>
+<body>
+    <h1>Lê Văn Tuấn</h1>
+    <form action="api.test.com/dangky">
+        <ul class="dangky">
+            <li>
+                <label>User Name<span class="required">*</span></label>
+                <!-- Autocomplete tu dong luu nhung gi da nhap truoc do -->
+                <input autocomplete="on" type="text" name="field" class="field-divided" placeholder="User Name"/>
+            </li>
+            <li>
+                <label>Password<span class="required">*</span></label>
+                <input type="password" name="field" class="field-divided" placeholder="Password"/>
+            </li>
+            <li>
+                <label>Date Of Birth<span class="required">*</span></label>
+                <input type="date" name="field" class="field-divided" placeholder="Date Of Birth"/>
+            </li>
+            <li>
+                <label>Age<span class="required">*</span></label>
+                <input type="number" name="field" class="field-divided" placeholder="Your Age"/>
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field" class="field-long" autofocus />
+            </li>
+            <li>
+                <label>Address<span class="required">*</span></label>
+                <textarea name="field" id="field5" class="address-textarea"></textarea>
+            </li>
+            <li>
+                <label>Website <span class="required">*</span></label>
+                <input type="url" name="field" class="website" />
+            </li>
+            <!-- Audio / Video -->
+            <li>
+                <audio controls>
+                    <source src="y2mate.com - Mập Mờ  Blue Remix   PHÍ PHƯƠNG ANH ft RIN9  Nhạc EDM Chill Gây Nghiện Hot Tik Tok 2022.mp3" type="audio/ogg">
+                    <source src="y2mate.com - Mập Mờ  Blue Remix   PHÍ PHƯƠNG ANH ft RIN9  Nhạc EDM Chill Gây Nghiện Hot Tik Tok 2022.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+            <li>
+                <video width="320" height="240" controls>
+                    <source src="y2mate.com - Vợ Tôi Là Ninja Lead_1080pFHR.mp4" type="video/mp4">
+                    <source src="y2mate.com - Vợ Tôi Là Ninja Lead_1080pFHR.mp4" type="video/ogg">
+                </video>
+            </li>
+            <!-- img srcset  -->
+            <li>
+                <img srcset="chup-anh-dep-anh-sang-min.jpg" 900px,
+                    srcset="chup-anh-dep-anh-sang-min.jpg" 500px>
+            </li>
+            <!-- picture -->
+            <li>
+                <picture>
+                    <source media="(min-width:650px)" srcset="202105170245381604-7927e470-8557-4e90-94d8-5d4e95f20dca.jpeg">
+                    <source media="(min-width:465px)" srcset="202105170245381604-7927e470-8557-4e90-94d8-5d4e95f20dca.jpeg">
+                    <img src="202105170245381604-7927e470-8557-4e90-94d8-5d4e95f20dca.jpeg" alt="Flowers" style="width:auto;">
+                </picture>
+            </li>
+            <li>
+            <!-- figure -->
+            <figure>
+                <img src="202105170245381604-7927e470-8557-4e90-94d8-5d4e95f20dca.jpeg" alt="Huyen" style="width:20%">
+                <figcaption>Khanh Huyen 2k4</figcaption>
+            </figure>
+            </li>
+            <!-- iframe -->
+            <li>
+                <iframe src="https://w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+            </li>
+            <!-- <li>
+                <object data="/data/name.pdf" type="application.pdf"></object>
+            </li> -->
+        </ul>
+    </form>
+    <!-- a[href] a[title]
+    a[href="https/....com"]
+    a[href *="google"]
+    a[href$=".com"]
+    a[href^="http"] -->
+
+</body>
+</html>
